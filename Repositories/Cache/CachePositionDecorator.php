@@ -11,7 +11,7 @@ class CachePositionDecorator extends BaseCacheDecorator implements PositionRepos
      */
     protected $repository;
 
-    public function __construct(SliderRepository $position)
+    public function __construct(PositionRepository $position)
     {
         parent::__construct();
         $this->entityName = 'position';
